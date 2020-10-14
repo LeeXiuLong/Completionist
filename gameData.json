@@ -1,0 +1,232 @@
+{
+    "400": {
+        "type": "game",
+        "name": "Portal",
+        "steam_appid": 400,
+        "is_free": false,
+        "header_image": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 999,
+            "final": 999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$9.99"
+        },
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 29997,
+            "total_negative": 444,
+            "total_reviews": 30441
+        }
+    },
+    "620": {
+        "type": "game",
+        "name": "Portal 2",
+        "steam_appid": 620,
+        "is_free": false,
+        "header_image": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 999,
+            "final": 999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$9.99"
+        },
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 74114,
+            "total_negative": 856,
+            "total_reviews": 74970
+        }
+    },
+    "105600": {
+        "type": "game",
+        "name": "Terraria",
+        "steam_appid": 105600,
+        "is_free": false,
+        "header_image": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 999,
+            "final": 999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$9.99"
+        },
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 262998,
+            "total_negative": 5271,
+            "total_reviews": 268269
+        }
+    },
+    "250900": {
+        "type": "game",
+        "name": "The Binding of Isaac: Rebirth",
+        "steam_appid": 250900,
+        "is_free": false,
+        "header_image": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1499,
+            "final": 1499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$14.99"
+        },
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 46074,
+            "total_negative": 938,
+            "total_reviews": 47012
+        }
+    },
+    "292030": {
+        "type": "game",
+        "name": "The Witcher® 3: Wild Hunt",
+        "steam_appid": 292030,
+        "is_free": false,
+        "header_image": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 3999,
+            "final": 3999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$39.99"
+        },
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 125512,
+            "total_negative": 2992,
+            "total_reviews": 128504
+        }
+    },
+    "294100": {
+        "type": "game",
+        "name": "RimWorld",
+        "steam_appid": 294100,
+        "is_free": false,
+        "header_image": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 3499,
+            "final": 3499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$34.99"
+        },
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 43162,
+            "total_negative": 757,
+            "total_reviews": 43919
+        }
+    },
+    "413150": {
+        "type": "game",
+        "name": "Stardew Valley",
+        "steam_appid": 413150,
+        "is_free": false,
+        "header_image": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1499,
+            "final": 1499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$14.99"
+        },
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 123429,
+            "total_negative": 1509,
+            "total_reviews": 124938
+        }
+    },
+    "427520": {
+        "type": "game",
+        "name": "Factorio",
+        "steam_appid": 427520,
+        "is_free": false,
+        "header_image": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 3000,
+            "final": 3000,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$30.00"
+        },
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 45930,
+            "total_negative": 515,
+            "total_reviews": 46445
+        }
+    },
+    "546560": {
+        "type": "game",
+        "name": "Half-Life: Alyx",
+        "steam_appid": 546560,
+        "is_free": false,
+        "header_image": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 5999,
+            "final": 5999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$59.99"
+        },
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 24194,
+            "total_negative": 356,
+            "total_reviews": 24550
+        }
+    },
+    "1145360": {
+        "type": "game",
+        "name": "Hades",
+        "steam_appid": 1145360,
+        "is_free": false,
+        "header_image": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 2499,
+            "final": 2499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$24.99"
+        },
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 22299,
+            "total_negative": 236,
+            "total_reviews": 22535
+        }
+    }
+}

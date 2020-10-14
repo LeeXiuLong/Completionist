@@ -11,14 +11,23 @@
 
 <body>
     <script src="./dist/main.js"></script>
-    <div class="header">
-        <h1>
-            Worth It?
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <div class="main-header">
+        <h1 class="main-header-h1">
+            Dollar per Fun
         </h1>
     </div>
-    <div class="main">
-        <ul id="game-list">
-        </ul>
+    <div class="main-body">
+        <div class="container">
+            <canvas class="my-price-chart">
+            </canvas>
+
+            <canvas class="my-rating-chart">
+            </canvas>
+
+            <canvas class="rating-per-dollar-chart">
+            </canvas>
+        </div>
     </div>
     <div class="footer">
         <ul>
