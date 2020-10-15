@@ -1,5 +1,4 @@
 const Chart = require("chart.js");
-console.log(Chart.defaults.global.defaultColor);
 Chart.defaults.global.defaultColor = "rgba(255,255,255, 0)";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -11,7 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
     //filter datasets
     let getGamesByGenre = genre => {
         return Object.values(json).filter(gameData => {
-            return gameData.genres.includes(genre);
+            if(genre === "All"){
+                return allGamesData;
+            }else{
+                return gameData.genres.includes(genre);
+            }
         })
     }
 
@@ -63,8 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
         return gameDataset.map(gameData => {
             let img = new Image();
             img.src = gameData.header_image;
-            img.width = 100;
-            img.height = 50;
+            img.width = 80;
+            img.height = 40;
             return img;
         })
     }
@@ -177,8 +180,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 data: getGameRatingPerDollar(allGamesData),
                 backgroundColor: "#76d7c4",
                 pointStyle: getGamePics(allGamesData),
-                pointHitRadius: 50,
-                pointHoverRadius: 50,
+                pointHitRadius: 30,
+                pointHoverRadius: 10,
             }]
         },
         options: {
@@ -234,31 +237,37 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     //DOM Elements
-    //chart buttons
-    const priceChartButton = document.getElementsByClassName("price-chart-button")[0];
-    const ratingChartButton = document.getElementsByClassName("rating-chart-button")[0];
-    const ratingPerDollarButton = document.getElementsByClassName("rating-per-dollar-button")[0];
-
-    //DOM Charts
+    
+    
+    //Charts
     const priceChartDOM = document.getElementsByClassName("price-chart")[0];
     const ratingChartDOM = document.getElementsByClassName("rating-chart")[0];
     const ratingPerDollarChartDOM = document.getElementsByClassName("rating-per-dollar-chart")[0];
 
-    //filter buttons
-    const allFilterButton = document.getElementsByClassName("all-filter-button")[0];
-    const actionFilterButton = document.getElementsByClassName("action-filter-button")[0];
-    const adventureFilterButton = document.getElementsByClassName("adventure-filter-button")[0];
-    const indieFilterButton = document.getElementsByClassName("indie-filter-button")[0];
-    const casualFilterButton = document.getElementsByClassName("casual-filter-button")[0];
-    const strategyFilterButton = document.getElementsByClassName("strategy-filter-button")[0];
-    const rpgFilterButton = document.getElementsByClassName("rpg-filter-button")[0];
-    const multiplayerFilterButton = document.getElementsByClassName("multiplayer-filter-button")[0];
-    const singleplayerFilterButton = document.getElementsByClassName("singleplayer-filter-button")[0];
-    const sportsFilterButton = document.getElementsByClassName("sports-filter-button")[0];
+    //filter selects
+    const selectGenre = document.getElementById("genre-filter");
+    const selectChart = document.getElementById("data-selector");
+    const selectDataStyleLabel = document.getElementById("select-data-style-label");
+    const selectDataStyle = document.getElementById("select-data-style");
+
+    //Functions For Event Handlers
+
+    //Change the Data Style of the Rating/$ Chart
+    const changeDataStyle = style => {
+        if (style === "dot") {
+            scatterChart.data.datasets[0].pointStyle = "circle";
+            scatterChart.data.datasets[0].pointHitRadius = 5;
+        } else if (style === "images") {
+            scatterChart.data.datasets[0].pointStyle = getGamePics(getGamesByGenre(selectGenre.options[selectGenre.selectedIndex].value));
+            scatterChart.data.datasets[0].pointHitRadius = 30;
+        }
+        scatterChart.update();
+    }
 
     let filterChartByGenre = genre => {
         let gamesData;
         if(genre === "All"){
+            console.log(genre);
             gamesData = allGamesData;
         } else{
             gamesData = getGamesByGenre(genre);
@@ -270,51 +279,54 @@ document.addEventListener("DOMContentLoaded", () => {
         ratingChart.data.datasets[0].data = getGameRatings(gamesData);
         ratingChart.update();
         scatterChart.data.labels = getGameNames(gamesData);
-        scatterChart.data.datasets[0].pointStyle = getGamePics(gamesData);
+        console.log(selectDataStyle);
+        if (selectDataStyleLabel.style.display !== "none"){
+            changeDataStyle(selectDataStyle.options[selectDataStyle.selectedIndex].value);
+        }
         scatterChart.data.datasets[0].data = getGameRatingPerDollar(gamesData);
         scatterChart.update();
     }
 
-    //Show Rating/$ Chart
-    const showRatingPerDollarChart = () => {
-        priceChartDOM.style.display = "none";
-        ratingChartDOM.style.display = "none";
-        ratingPerDollarChartDOM.style.display = "block";
+    
+
+    //Show the Data you would like to see
+    const showChart = chartType => {
+        if(chartType === "RatingPerDollar"){
+            priceChartDOM.style.display = "none";
+            ratingChartDOM.style.display = "none";
+            ratingPerDollarChartDOM.style.display = "block";
+            selectDataStyleLabel.style.display = "flex";
+        } else if( chartType === "Price"){
+            priceChartDOM.style.display = "block";
+            ratingChartDOM.style.display = "none";
+            ratingPerDollarChartDOM.style.display = "none";
+            selectDataStyleLabel.style.display = "none";
+        } else{
+            priceChartDOM.style.display = "none";
+            ratingChartDOM.style.display = "block";
+            ratingPerDollarChartDOM.style.display = "none";
+            selectDataStyleLabel.style.display = "none";
+        }
     }
 
-    //Show Price Chart
-    const showPriceChart = () => {
-        priceChartDOM.style.display = "block";
-        ratingChartDOM.style.display = "none";
-        ratingPerDollarChartDOM.style.display = "none";
-    }
-
-    //Show Rating Chart
-    const showRatingChart = () => {
-        priceChartDOM.style.display = "none";
-        ratingChartDOM.style.display = "block";
-        ratingPerDollarChartDOM.style.display = "none";
-    }
     //Make sure that Rating/$ Chart is shown by default
-    showRatingPerDollarChart();
+    showChart("RatingPerDollar");
 
     //EventListeners
-    //ChartButtonEventListeners
-    priceChartButton.addEventListener("click", showPriceChart);
-    ratingChartButton.addEventListener("click", showRatingChart);
-    ratingPerDollarButton.addEventListener("click", showRatingPerDollarChart);
 
     //Filter Button Event Listeners
-    allFilterButton.addEventListener("click", () => filterChartByGenre("All"));
-    actionFilterButton.addEventListener("click", () => filterChartByGenre("Action"));
-    adventureFilterButton.addEventListener("click", () => filterChartByGenre("Adventure"));
-    indieFilterButton.addEventListener("click", () => filterChartByGenre("Indie"));
-    casualFilterButton.addEventListener("click", () => filterChartByGenre("Casual"));
-    strategyFilterButton.addEventListener("click", () => filterChartByGenre("Strategy"));
-    rpgFilterButton.addEventListener("click", () => filterChartByGenre("RPG"));
-    multiplayerFilterButton.addEventListener("click", () => filterChartByGenre("Multi-player"));
-    singleplayerFilterButton.addEventListener("click", () => filterChartByGenre("Single-player"));
-    sportsFilterButton.addEventListener("click", () => filterChartByGenre("Sports"));
+    selectGenre.addEventListener("change", (event) => {
+        filterChartByGenre(event.target.value);
+    })
+
+    selectChart.addEventListener("change", (event) => {
+        showChart(event.target.value);
+    })
+
+    selectDataStyle.addEventListener("change", (event) => {
+        console.log(event.target.value);
+        changeDataStyle(event.target.value);
+    })
 
 
 })

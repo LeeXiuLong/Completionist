@@ -25,9 +25,9 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 19848,
+            "total_positive": 19852,
             "total_negative": 751,
-            "total_reviews": 20599
+            "total_reviews": 20603
         }
     },
     "400": {
@@ -61,9 +61,9 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 30008,
+            "total_positive": 30017,
             "total_negative": 444,
-            "total_reviews": 30452
+            "total_reviews": 30461
         }
     },
     "440": {
@@ -94,9 +94,9 @@
             "num_reviews": 12,
             "review_score": 8,
             "review_score_desc": "Very Positive",
-            "total_positive": 5302,
+            "total_positive": 5304,
             "total_negative": 412,
-            "total_reviews": 5714
+            "total_reviews": 5716
         }
     },
     "570": {
@@ -167,9 +167,79 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 74146,
+            "total_positive": 74163,
             "total_negative": 856,
-            "total_reviews": 75002
+            "total_reviews": 75019
+        }
+    },
+    "22380": {
+        "type": "game",
+        "name": "Fallout: New Vegas",
+        "steam_appid": 22380,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/22380/header.jpg?t=1586905021",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 999,
+            "final": 999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$9.99"
+        },
+        "genres": [
+            "Action",
+            "RPG",
+            "Single-player",
+            "Steam Achievements",
+            "Partial Controller Support",
+            "Steam Leaderboards",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 63024,
+            "total_negative": 2395,
+            "total_reviews": 65419
+        }
+    },
+    "39210": {
+        "type": "game",
+        "name": "FINAL FANTASY XIV Online",
+        "steam_appid": 39210,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/39210/header.jpg?t=1600280372",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1999,
+            "final": 1999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$19.99"
+        },
+        "genres": [
+            "Massively Multiplayer",
+            "RPG",
+            "Single-player",
+            "Multi-player",
+            "MMO",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Cross-Platform Multiplayer",
+            "Partial Controller Support",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 16508,
+            "total_negative": 2236,
+            "total_reviews": 18744
         }
     },
     "48700": {
@@ -241,9 +311,84 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 263204,
-            "total_negative": 5273,
-            "total_reviews": 268477
+            "total_positive": 263329,
+            "total_negative": 5274,
+            "total_reviews": 268603
+        }
+    },
+    "214950": {
+        "type": "game",
+        "name": "Total War™: ROME II - Emperor Edition",
+        "steam_appid": 214950,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/214950/header_alt_assets_2.jpg?t=1602267023",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 5999,
+            "final": 1499,
+            "discount_percent": 75,
+            "initial_formatted": "$59.99",
+            "final_formatted": "$14.99"
+        },
+        "genres": [
+            "Strategy",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "LAN PvP",
+            "Co-op",
+            "Online Co-op",
+            "LAN Co-op",
+            "Steam Trading Cards",
+            "Steam Cloud"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 6,
+            "review_score_desc": "Mostly Positive",
+            "total_positive": 15009,
+            "total_negative": 3885,
+            "total_reviews": 18894
+        }
+    },
+    "218620": {
+        "type": "game",
+        "name": "PAYDAY 2",
+        "steam_appid": 218620,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/218620/header.jpg?t=1597304092",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 999,
+            "final": 999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$9.99"
+        },
+        "genres": [
+            "Action",
+            "RPG",
+            "Single-player",
+            "Multi-player",
+            "Co-op",
+            "Online Co-op",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "In-App Purchases",
+            "Steam Cloud",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 87160,
+            "total_negative": 18405,
+            "total_reviews": 105565
         }
     },
     "230410": {
@@ -336,9 +481,9 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 46088,
-            "total_negative": 937,
-            "total_reviews": 47025
+            "total_positive": 46106,
+            "total_negative": 936,
+            "total_reviews": 47042
         }
     },
     "252490": {
@@ -380,9 +525,9 @@
             "num_reviews": 20,
             "review_score": 8,
             "review_score_desc": "Very Positive",
-            "total_positive": 166215,
-            "total_negative": 27563,
-            "total_reviews": 193778
+            "total_positive": 166264,
+            "total_negative": 27569,
+            "total_reviews": 193833
         }
     },
     "252950": {
@@ -421,9 +566,44 @@
             "num_reviews": 20,
             "review_score": 8,
             "review_score_desc": "Very Positive",
-            "total_positive": 154721,
-            "total_negative": 17904,
-            "total_reviews": 172625
+            "total_positive": 154766,
+            "total_negative": 17912,
+            "total_reviews": 172678
+        }
+    },
+    "261550": {
+        "type": "game",
+        "name": "Mount & Blade II: Bannerlord",
+        "steam_appid": 261550,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/261550/header.jpg?t=1599656843",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 4999,
+            "final": 4999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$49.99"
+        },
+        "genres": [
+            "Action",
+            "RPG",
+            "Simulation",
+            "Strategy",
+            "Early Access",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 45022,
+            "total_negative": 6034,
+            "total_reviews": 51056
         }
     },
     "271590": {
@@ -455,9 +635,163 @@
             "num_reviews": 20,
             "review_score": 6,
             "review_score_desc": "Mostly Positive",
-            "total_positive": 189982,
-            "total_negative": 68016,
-            "total_reviews": 257998
+            "total_positive": 190028,
+            "total_negative": 68021,
+            "total_reviews": 258049
+        }
+    },
+    "275850": {
+        "type": "game",
+        "name": "No Man's Sky",
+        "steam_appid": 275850,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/275850/header.jpg?t=1602779406",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 5999,
+            "final": 5999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$59.99"
+        },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Cloud",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 5,
+            "review_score_desc": "Mixed",
+            "total_positive": 57238,
+            "total_negative": 34638,
+            "total_reviews": 91876
+        }
+    },
+    "285800": {
+        "type": "game",
+        "name": "Braveland",
+        "steam_appid": 285800,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/285800/header.jpg?t=1572885919",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 699,
+            "final": 699,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$6.99"
+        },
+        "genres": [
+            "Adventure",
+            "Casual",
+            "Indie",
+            "RPG",
+            "Strategy",
+            "Single-player",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Steam Cloud",
+            "Steam Leaderboards",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 1,
+            "review_score": 6,
+            "review_score_desc": "Mostly Positive",
+            "total_positive": 275,
+            "total_negative": 87,
+            "total_reviews": 362
+        }
+    },
+    "289070": {
+        "type": "game",
+        "name": "Sid Meier’s Civilization® VI",
+        "steam_appid": 289070,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/289070/header.jpg?t=1600988681",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 5999,
+            "final": 5999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$59.99"
+        },
+        "genres": [
+            "Strategy",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "LAN PvP",
+            "Shared/Split Screen PvP",
+            "Shared/Split Screen",
+            "Cross-Platform Multiplayer",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "Steam Workshop",
+            "Steam Turn Notifications",
+            "Remote Play on Tablet",
+            "Remote Play Together"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 6,
+            "review_score_desc": "Mostly Positive",
+            "total_positive": 33005,
+            "total_negative": 8518,
+            "total_reviews": 41523
+        }
+    },
+    "291550": {
+        "type": "game",
+        "name": "Brawlhalla",
+        "steam_appid": 291550,
+        "is_free": true,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/291550/header.jpg?t=1602692665",
+        "genres": [
+            "Action",
+            "Free to Play",
+            "Indie",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Shared/Split Screen PvP",
+            "Co-op",
+            "Online Co-op",
+            "Shared/Split Screen Co-op",
+            "Shared/Split Screen",
+            "Cross-Platform Multiplayer",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV",
+            "Remote Play Together"
+        ],
+        "review_info": {
+            "num_reviews": 1,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 1211,
+            "total_negative": 238,
+            "total_reviews": 1449
         }
     },
     "292030": {
@@ -488,9 +822,9 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 125535,
-            "total_negative": 2993,
-            "total_reviews": 128528
+            "total_positive": 125566,
+            "total_negative": 2995,
+            "total_reviews": 128561
         }
     },
     "294100": {
@@ -520,9 +854,111 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 43176,
+            "total_positive": 43187,
             "total_negative": 757,
-            "total_reviews": 43933
+            "total_reviews": 43944
+        }
+    },
+    "306130": {
+        "type": "game",
+        "name": "The Elder Scrolls® Online",
+        "steam_appid": 306130,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/306130/header.jpg?t=1601043462",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1999,
+            "final": 1999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$19.99"
+        },
+        "genres": [
+            "Massively Multiplayer",
+            "RPG",
+            "Multi-player",
+            "MMO",
+            "Steam Trading Cards",
+            "Partial Controller Support",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 30847,
+            "total_negative": 7201,
+            "total_reviews": 38048
+        }
+    },
+    "322330": {
+        "type": "game",
+        "name": "Don't Starve Together",
+        "steam_appid": 322330,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/322330/header_alt_assets_21.jpg?t=1602117368",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1499,
+            "final": 1499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$14.99"
+        },
+        "genres": [
+            "Adventure",
+            "Indie",
+            "Simulation",
+            "Single-player",
+            "Multi-player",
+            "Co-op",
+            "Cross-Platform Multiplayer",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Steam Workshop",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 35186,
+            "total_negative": 1269,
+            "total_reviews": 36455
+        }
+    },
+    "343710": {
+        "type": "game",
+        "name": "Kholat",
+        "steam_appid": 343710,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/343710/header.jpg?t=1589292099",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1999,
+            "final": 1999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$19.99"
+        },
+        "genres": [
+            "Adventure",
+            "Indie",
+            "Single-player",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Steam Cloud"
+        ],
+        "review_info": {
+            "num_reviews": 1,
+            "review_score": 5,
+            "review_score_desc": "Mixed",
+            "total_positive": 427,
+            "total_negative": 247,
+            "total_reviews": 674
         }
     },
     "346110": {
@@ -561,9 +997,9 @@
             "num_reviews": 20,
             "review_score": 6,
             "review_score_desc": "Mostly Positive",
-            "total_positive": 101464,
-            "total_negative": 34499,
-            "total_reviews": 135963
+            "total_positive": 101487,
+            "total_negative": 34503,
+            "total_reviews": 135990
         }
     },
     "359550": {
@@ -598,9 +1034,115 @@
             "num_reviews": 20,
             "review_score": 8,
             "review_score_desc": "Very Positive",
-            "total_positive": 255496,
-            "total_negative": 28280,
-            "total_reviews": 283776
+            "total_positive": 255566,
+            "total_negative": 28291,
+            "total_reviews": 283857
+        }
+    },
+    "374320": {
+        "type": "game",
+        "name": "DARK SOULS™ III",
+        "steam_appid": 374320,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/374320/header.jpg?t=1588788422",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 5999,
+            "final": 5999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$59.99"
+        },
+        "genres": [
+            "Action",
+            "Single-player",
+            "Multi-player",
+            "Co-op",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 48051,
+            "total_negative": 4067,
+            "total_reviews": 52118
+        }
+    },
+    "377160": {
+        "type": "game",
+        "name": "Fallout 4",
+        "steam_appid": 377160,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/377160/header.jpg?t=1588615523",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 2999,
+            "final": 2999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$29.99"
+        },
+        "genres": [
+            "RPG",
+            "Single-player",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Cloud",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 6,
+            "review_score_desc": "Mostly Positive",
+            "total_positive": 62305,
+            "total_negative": 19867,
+            "total_reviews": 82172
+        }
+    },
+    "381210": {
+        "type": "game",
+        "name": "Dead by Daylight",
+        "steam_appid": 381210,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/381210/header.jpg?t=1600097837",
+        "price_overview": {
+            "currency": "RUB",
+            "initial": 499,
+            "final": 499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "499 pуб."
+        },
+        "genres": [
+            "Экшены",
+            "Для нескольких игроков",
+            "Против игроков",
+            "Против игроков (по сети)",
+            "Кооперативная игра",
+            "Кооператив (по сети)",
+            "Достижения Steam",
+            "Контроллер (полностью)",
+            "Коллекционные карточки",
+            "Steam Cloud",
+            "Remote Play на телефоне",
+            "Remote Play на планшете",
+            "Remote Play на телевизоре"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 73920,
+            "total_negative": 15897,
+            "total_reviews": 89817
         }
     },
     "413150": {
@@ -637,9 +1179,9 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 123465,
+            "total_positive": 123493,
             "total_negative": 1509,
-            "total_reviews": 124974
+            "total_reviews": 125002
         }
     },
     "427520": {
@@ -676,9 +1218,99 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 45957,
+            "total_positive": 45977,
             "total_negative": 515,
-            "total_reviews": 46472
+            "total_reviews": 46492
+        }
+    },
+    "435150": {
+        "type": "game",
+        "name": "Divinity: Original Sin 2 - Definitive Edition",
+        "steam_appid": 435150,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/435150/header.jpg?t=1592914193",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 4499,
+            "final": 4499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$44.99"
+        },
+        "genres": [
+            "Adventure",
+            "RPG",
+            "Strategy",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Shared/Split Screen PvP",
+            "Co-op",
+            "Online Co-op",
+            "Shared/Split Screen Co-op",
+            "Shared/Split Screen",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Captions available",
+            "Steam Workshop",
+            "Steam Cloud",
+            "Includes level editor",
+            "Remote Play on Tablet",
+            "Remote Play on TV",
+            "Remote Play Together"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 44410,
+            "total_negative": 1956,
+            "total_reviews": 46366
+        }
+    },
+    "440900": {
+        "type": "game",
+        "name": "Conan Exiles",
+        "steam_appid": 440900,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/440900/header.jpg?t=1600263436",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 3999,
+            "final": 3999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$39.99"
+        },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Massively Multiplayer",
+            "RPG",
+            "Simulation",
+            "Strategy",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Steam Workshop",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 6,
+            "review_score_desc": "Mostly Positive",
+            "total_positive": 17129,
+            "total_negative": 4617,
+            "total_reviews": 21746
         }
     },
     "460950": {
@@ -709,9 +1341,41 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 10063,
+            "total_positive": 10068,
             "total_negative": 197,
-            "total_reviews": 10260
+            "total_reviews": 10265
+        }
+    },
+    "489830": {
+        "type": "game",
+        "name": "The Elder Scrolls V: Skyrim Special Edition",
+        "steam_appid": 489830,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/489830/header.jpg?t=1590515887",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 3999,
+            "final": 3999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$39.99"
+        },
+        "genres": [
+            "RPG",
+            "Single-player",
+            "Steam Achievements",
+            "Partial Controller Support",
+            "Steam Cloud",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 28672,
+            "total_negative": 1896,
+            "total_reviews": 30568
         }
     },
     "546560": {
@@ -742,9 +1406,9 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 24204,
-            "total_negative": 356,
-            "total_reviews": 24560
+            "total_positive": 24210,
+            "total_negative": 355,
+            "total_reviews": 24565
         }
     },
     "578080": {
@@ -776,9 +1440,124 @@
             "num_reviews": 20,
             "review_score": 5,
             "review_score_desc": "Mixed",
-            "total_positive": 143798,
-            "total_negative": 93002,
-            "total_reviews": 236800
+            "total_positive": 143819,
+            "total_negative": 93009,
+            "total_reviews": 236828
+        }
+    },
+    "582010": {
+        "type": "game",
+        "name": "Monster Hunter: World",
+        "steam_appid": 582010,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/582010/header.jpg?t=1601511751",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 2999,
+            "final": 2999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$29.99"
+        },
+        "genres": [
+            "Action",
+            "Single-player",
+            "Multi-player",
+            "Co-op",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "Partial Controller Support",
+            "Steam Cloud",
+            "Stats",
+            "Steam Leaderboards",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 52282,
+            "total_negative": 6172,
+            "total_reviews": 58454
+        }
+    },
+    "582660": {
+        "type": "game",
+        "name": "Black Desert Online",
+        "steam_appid": 582660,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/582660/header.jpg?t=1599178252",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 999,
+            "final": 999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$9.99"
+        },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Massively Multiplayer",
+            "RPG",
+            "Simulation",
+            "Strategy",
+            "Multi-player",
+            "MMO",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Steam Trading Cards",
+            "In-App Purchases",
+            "Partial Controller Support"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 6,
+            "review_score_desc": "Mostly Positive",
+            "total_positive": 13198,
+            "total_negative": 5182,
+            "total_reviews": 18380
+        }
+    },
+    "632360": {
+        "type": "game",
+        "name": "Risk of Rain 2",
+        "steam_appid": 632360,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/632360/header.jpg?t=1597330177",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 2499,
+            "final": 2499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$24.99"
+        },
+        "genres": [
+            "Action",
+            "Indie",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Full controller support",
+            "Steam Cloud",
+            "Steam Leaderboards",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 52119,
+            "total_negative": 1391,
+            "total_reviews": 53510
         }
     },
     "646570": {
@@ -814,9 +1593,9 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 31092,
+            "total_positive": 31104,
             "total_negative": 617,
-            "total_reviews": 31709
+            "total_reviews": 31721
         }
     },
     "739630": {
@@ -848,9 +1627,119 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 21036,
-            "total_negative": 525,
-            "total_reviews": 21561
+            "total_positive": 21609,
+            "total_negative": 538,
+            "total_reviews": 22147
+        }
+    },
+    "779340": {
+        "type": "game",
+        "name": "Total War: THREE KINGDOMS",
+        "steam_appid": 779340,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/779340/header_alt_assets_4.jpg?t=1602263355",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 5999,
+            "final": 4019,
+            "discount_percent": 33,
+            "initial_formatted": "$59.99",
+            "final_formatted": "$40.19"
+        },
+        "genres": [
+            "Action",
+            "Strategy",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "LAN PvP",
+            "Co-op",
+            "Online Co-op",
+            "LAN Co-op",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "Steam Cloud"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 9649,
+            "total_negative": 1556,
+            "total_reviews": 11205
+        }
+    },
+    "812140": {
+        "type": "game",
+        "name": "Assassin's Creed® Odyssey",
+        "steam_appid": 812140,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/812140/header.jpg?t=1602601042",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 5999,
+            "final": 1799,
+            "discount_percent": 70,
+            "initial_formatted": "$59.99",
+            "final_formatted": "$17.99"
+        },
+        "genres": [
+            "Action",
+            "Adventure",
+            "RPG",
+            "Single-player",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "Captions available",
+            "In-App Purchases",
+            "Partial Controller Support",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 23393,
+            "total_negative": 2594,
+            "total_reviews": 25987
+        }
+    },
+    "813780": {
+        "type": "game",
+        "name": "Age of Empires II: Definitive Edition",
+        "steam_appid": 813780,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/813780/header.jpg?t=1598909139",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1999,
+            "final": 1999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$19.99"
+        },
+        "genres": [
+            "Strategy",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "LAN PvP",
+            "Cross-Platform Multiplayer",
+            "Steam Achievements",
+            "Steam Cloud",
+            "Includes level editor",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 19018,
+            "total_negative": 1396,
+            "total_reviews": 20414
         }
     },
     "945360": {
@@ -884,9 +1773,49 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 130386,
-            "total_negative": 4734,
-            "total_reviews": 135120
+            "total_positive": 131446,
+            "total_negative": 4769,
+            "total_reviews": 136215
+        }
+    },
+    "976730": {
+        "type": "game",
+        "name": "Halo: The Master Chief Collection",
+        "steam_appid": 976730,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/976730/header.jpg?t=1600795638",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 3999,
+            "final": 3999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$39.99"
+        },
+        "genres": [
+            "Action",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "LAN PvP",
+            "Co-op",
+            "Online Co-op",
+            "LAN Co-op",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 67520,
+            "total_negative": 6287,
+            "total_reviews": 73807
         }
     },
     "1085660": {
@@ -916,9 +1845,162 @@
             "num_reviews": 20,
             "review_score": 8,
             "review_score_desc": "Very Positive",
-            "total_positive": 39690,
-            "total_negative": 3909,
-            "total_reviews": 43599
+            "total_positive": 39724,
+            "total_negative": 3912,
+            "total_reviews": 43636
+        }
+    },
+    "1086940": {
+        "type": "game",
+        "name": "Baldur's Gate 3",
+        "steam_appid": 1086940,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1086940/header.jpg?t=1602608960",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 5999,
+            "final": 5999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$59.99"
+        },
+        "genres": [
+            "Adventure",
+            "RPG",
+            "Strategy",
+            "Early Access",
+            "Single-player",
+            "Multi-player",
+            "Co-op",
+            "Online Co-op",
+            "LAN Co-op",
+            "Steam Cloud"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 9497,
+            "total_negative": 1299,
+            "total_reviews": 10796
+        }
+    },
+    "1089350": {
+        "type": "game",
+        "name": "NBA 2K20",
+        "steam_appid": 1089350,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1089350/header.jpg?t=1595623296",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 5999,
+            "final": 5999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$59.99"
+        },
+        "genres": [
+            "Simulation",
+            "Sports",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Shared/Split Screen PvP",
+            "Co-op",
+            "Online Co-op",
+            "Shared/Split Screen Co-op",
+            "Shared/Split Screen",
+            "Steam Achievements",
+            "Full controller support",
+            "In-App Purchases",
+            "Steam Cloud",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV",
+            "Remote Play Together"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 5,
+            "review_score_desc": "Mixed",
+            "total_positive": 5453,
+            "total_negative": 3395,
+            "total_reviews": 8848
+        }
+    },
+    "1097150": {
+        "type": "game",
+        "name": "Fall Guys: Ultimate Knockout",
+        "steam_appid": 1097150,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1097150/header_alt_assets_0.jpg?t=1602172542",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1999,
+            "final": 1999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$19.99"
+        },
+        "genres": [
+            "Action",
+            "Casual",
+            "Indie",
+            "Massively Multiplayer",
+            "Sports",
+            "Multi-player",
+            "MMO",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Steam Achievements",
+            "Full controller support",
+            "In-App Purchases",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 78102,
+            "total_negative": 13504,
+            "total_reviews": 91606
+        }
+    },
+    "1100600": {
+        "type": "game",
+        "name": "Football Manager 2020",
+        "steam_appid": 1100600,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1100600/header.jpg?t=1602266027",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 4999,
+            "final": 4999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$49.99"
+        },
+        "genres": [
+            "Simulation",
+            "Sports",
+            "Single-player",
+            "Multi-player",
+            "Steam Achievements",
+            "Steam Workshop",
+            "Steam Cloud",
+            "Steam Leaderboards"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 5466,
+            "total_negative": 604,
+            "total_reviews": 6070
         }
     },
     "1145360": {
@@ -952,9 +2034,248 @@
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 22450,
-            "total_negative": 237,
-            "total_reviews": 22687
+            "total_positive": 22574,
+            "total_negative": 240,
+            "total_reviews": 22814
+        }
+    },
+    "1172620": {
+        "type": "game",
+        "name": "Sea of Thieves",
+        "steam_appid": 1172620,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1172620/header.jpg?t=1596057038",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 3999,
+            "final": 3999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$39.99"
+        },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Cross-Platform Multiplayer",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "In-App Purchases",
+            "Partial Controller Support",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 11523,
+            "total_negative": 1166,
+            "total_reviews": 12689
+        }
+    },
+    "1174180": {
+        "type": "game",
+        "name": "Red Dead Redemption 2",
+        "steam_appid": 1174180,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1174180/header.jpg?t=1597419522",
+        "price_overview": {
+            "currency": "CAD",
+            "initial": 7999,
+            "final": 7999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "CDN$ 79.99"
+        },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Steam Achievements",
+            "In-App Purchases",
+            "Partial Controller Support",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 27805,
+            "total_negative": 6415,
+            "total_reviews": 34220
+        }
+    },
+    "1222730": {
+        "type": "game",
+        "name": "STAR WARS™: Squadrons",
+        "steam_appid": 1222730,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1222730/header.jpg?t=1602596104",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 3999,
+            "final": 3999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$39.99"
+        },
+        "genres": [
+            "Action",
+            "Simulation",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 6,
+            "review_score_desc": "Mostly Positive",
+            "total_positive": 6472,
+            "total_negative": 2200,
+            "total_reviews": 8672
+        }
+    },
+    "1225330": {
+        "type": "game",
+        "name": "NBA 2K21",
+        "steam_appid": 1225330,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1225330/header.jpg?t=1599801486",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 5999,
+            "final": 3899,
+            "discount_percent": 35,
+            "initial_formatted": "$59.99",
+            "final_formatted": "$38.99"
+        },
+        "genres": [
+            "Simulation",
+            "Sports",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Shared/Split Screen PvP",
+            "Co-op",
+            "Online Co-op",
+            "Shared/Split Screen Co-op",
+            "Shared/Split Screen",
+            "Steam Achievements",
+            "Full controller support",
+            "In-App Purchases",
+            "Steam Cloud",
+            "Remote Play Together"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 5,
+            "review_score_desc": "Mixed",
+            "total_positive": 763,
+            "total_negative": 870,
+            "total_reviews": 1633
+        }
+    },
+    "1286830": {
+        "type": "game",
+        "name": "STAR WARS™: The Old Republic™",
+        "steam_appid": 1286830,
+        "is_free": true,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1286830/header.jpg?t=1597858193",
+        "genres": [
+            "Free to Play",
+            "Massively Multiplayer",
+            "RPG",
+            "Multi-player",
+            "MMO",
+            "PvP",
+            "Co-op",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "In-App Purchases"
+        ],
+        "review_info": {
+            "num_reviews": 2,
+            "review_score": 7,
+            "review_score_desc": "Positive",
+            "total_positive": 41,
+            "total_negative": 2,
+            "total_reviews": 43
+        }
+    },
+    "1313860": {
+        "type": "game",
+        "name": "EA SPORTS™ FIFA 21",
+        "steam_appid": 1313860,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1313860/header.jpg?t=1602265633",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 5999,
+            "final": 5999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$59.99"
+        },
+        "genres": [
+            "Simulation",
+            "Sports",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Steam Achievements",
+            "Full controller support",
+            "Captions available",
+            "In-App Purchases"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 6,
+            "review_score_desc": "Mostly Positive",
+            "total_positive": 475,
+            "total_negative": 157,
+            "total_reviews": 632
+        }
+    },
+    "1343400": {
+        "type": "game",
+        "name": "RuneScape ®",
+        "steam_appid": 1343400,
+        "is_free": true,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1343400/header.jpg?t=1602687910",
+        "genres": [
+            "Massively Multiplayer",
+            "RPG",
+            "Multi-player",
+            "MMO",
+            "Cross-Platform Multiplayer",
+            "Steam Achievements"
+        ],
+        "review_info": {
+            "num_reviews": 3,
+            "review_score": 0,
+            "review_score_desc": "6 user reviews",
+            "total_positive": 6,
+            "total_negative": 0,
+            "total_reviews": 6
         }
     }
 }

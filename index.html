@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dist/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/css/bootstrap-select.min.css">
     <title>Document</title>
 </head>
 
@@ -19,38 +20,53 @@
     </div>
     <div class="main-body">
         <div class="filters-and-charts">
-            <div class="filter-buttons">
-                <button class="all-filter-button">
-                    All
-                </button>
-                <button class="action-filter-button">
-                    Action
-                </button>
-                <button class="adventure-filter-button">
-                    Adventure
-                </button>
-                <button class="indie-filter-button">
-                    Indie
-                </button>
-                <button class="casual-filter-button">
-                    Casual
-                </button>
-                <button class="strategy-filter-button">
-                    Strategy
-                </button>
-                <button class="rpg-filter-button">
-                    RPG
-                </button>
-                <button class="multiplayer-filter-button">
-                    Multiplayer
-                </button>
-                <button class="singleplayer-filter-button">
-                    Singleplayer
-                </button>
-                <button class="sports-filter-button">
-                    Sports
-                </button>
+            <div class="filters">
+                <label class="filter-labels" id="filter-genre-label">
+                    Filter By Genre
+                    <select class="filter" id="genre-filter">
+                        <option value="All" disabled selected>Genre</option>
+                        <option class="all-select" value="All">All</option>
+                        <option value="Action">Action</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Indie">Indie</option>
+                        <option value="Casual">Casual</option>
+                        <option value="Strategy">Strategy</option>
+                        <option value="RPG">RPG</option>
+                        <option value="Multi-player">Multiplayer</option>
+                        <option value="Single-player">Singleplayer</option>
+                        <option value="Sports">Sports</option>
+                    </select>
+                </label>
+                <label class="filter-labels">
+                    Data
+                    <select class="filter" id="data-selector">
+                        <option value="RatingPerDollar">Rating/$</option>
+                        <option value="Price">Price</option>
+                        <option value="Rating">Rating</option>
+                    </select>
+                </label>
+                <label class="filter-labels" id="filter-price-label">
+                    Filter By Price
+                    <select class="filter" id="price-filter">
+                        <option>Free Games</option>
+                        <option> Games < 10$ </option>
+                        <option> Games < 20$ </option>
+                        <option> Games < 30$ </option>
+                        <option> Games < 40$ </option>
+                        <option> Games < 50$ </option>
+                        <option> Games < 60$ </option>
+                        option
+                    </select>
+                </label>
+                <label class="filter-labels" id="select-data-style-label">
+                    Data Style
+                    <select class="filter" id="select-data-style">
+                        <option value="images">Game Images</option>
+                        <option value="dot">Point</option>
+                    </select>
+                </label>
             </div>
+            
             <div class="charts-container">
                 <canvas class="price-chart">
                 </canvas>
@@ -61,18 +77,6 @@
                 <canvas class="rating-per-dollar-chart">
                 </canvas>
             </div>
-        </div>
-        
-        <div class="buttons-container">
-            <button class="price-chart-button">
-                Price Chart
-            </button>
-            <button class="rating-chart-button">
-                Rating Chart
-            </button>
-            <button class="rating-per-dollar-button">
-                Rating/$ Chart
-            </button>
         </div>
     </div>
     <div class="footer">

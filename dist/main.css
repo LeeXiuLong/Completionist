@@ -52,7 +52,6 @@ body{
     height: 200px;
     display: flex;
     justify-content: center;
-    width: 80%;
 }
 .main-header-h1{
     padding-top: 100px;
@@ -65,10 +64,40 @@ body{
     display: flex;
 }
 
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    color: white;
+}
+
+.filter-labels{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.filter{
+    padding: 8px 12px;
+    color: white;
+    background-color: rgba(0, 162, 255, 0.02);
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    background-position: right 10px;
+}
+
+option{
+    color: black;
+}
+
+
 .filters-and-charts{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 95%;
     align-items: center;
 }
 
