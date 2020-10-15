@@ -1,10 +1,10 @@
 {
-    "400": {
+    "10": {
         "type": "game",
-        "name": "Portal",
-        "steam_appid": 400,
+        "name": "Counter-Strike",
+        "steam_appid": 10,
         "is_free": false,
-        "header_image": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/10/header.jpg?t=1602535893",
         "price_overview": {
             "currency": "USD",
             "initial": 999,
@@ -13,13 +13,117 @@
             "initial_formatted": "",
             "final_formatted": "$9.99"
         },
+        "genres": [
+            "Action",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Shared/Split Screen PvP",
+            "Valve Anti-Cheat enabled"
+        ],
         "review_info": {
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 29997,
+            "total_positive": 19848,
+            "total_negative": 751,
+            "total_reviews": 20599
+        }
+    },
+    "400": {
+        "type": "game",
+        "name": "Portal",
+        "steam_appid": 400,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/400/header.jpg?t=1587581981",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 999,
+            "final": 999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$9.99"
+        },
+        "genres": [
+            "Action",
+            "Single-player",
+            "Steam Achievements",
+            "Captions available",
+            "Partial Controller Support",
+            "Includes level editor",
+            "Includes Source SDK",
+            "Commentary available",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play Together"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 30008,
             "total_negative": 444,
-            "total_reviews": 30441
+            "total_reviews": 30452
+        }
+    },
+    "440": {
+        "type": "game",
+        "name": "Team Fortress 2",
+        "steam_appid": 440,
+        "is_free": true,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/440/header.jpg?t=1592263852",
+        "genres": [
+            "Action",
+            "Free to Play",
+            "Multi-player",
+            "Cross-Platform Multiplayer",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "Captions available",
+            "Steam Workshop",
+            "In-App Purchases",
+            "Partial Controller Support",
+            "Valve Anti-Cheat enabled",
+            "Stats",
+            "Includes level editor",
+            "Commentary available",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 12,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 5302,
+            "total_negative": 412,
+            "total_reviews": 5714
+        }
+    },
+    "570": {
+        "type": "game",
+        "name": "Dota 2",
+        "steam_appid": 570,
+        "is_free": true,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/570/header.jpg?t=1602282853",
+        "genres": [
+            "Action",
+            "Free to Play",
+            "Strategy",
+            "Multi-player",
+            "Co-op",
+            "Steam Trading Cards",
+            "Steam Workshop",
+            "SteamVR Collectibles",
+            "In-App Purchases",
+            "Valve Anti-Cheat enabled"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 5511,
+            "total_negative": 653,
+            "total_reviews": 6164
         }
     },
     "620": {
@@ -27,7 +131,7 @@
         "name": "Portal 2",
         "steam_appid": 620,
         "is_free": false,
-        "header_image": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/620/header.jpg?t=1587582232",
         "price_overview": {
             "currency": "USD",
             "initial": 999,
@@ -36,13 +140,68 @@
             "initial_formatted": "",
             "final_formatted": "$9.99"
         },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Single-player",
+            "Multi-player",
+            "Co-op",
+            "Online Co-op",
+            "Shared/Split Screen Co-op",
+            "Shared/Split Screen",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Captions available",
+            "Steam Workshop",
+            "Steam Cloud",
+            "Stats",
+            "Includes level editor",
+            "Commentary available",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV",
+            "Remote Play Together"
+        ],
         "review_info": {
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 74114,
+            "total_positive": 74146,
             "total_negative": 856,
-            "total_reviews": 74970
+            "total_reviews": 75002
+        }
+    },
+    "48700": {
+        "type": "game",
+        "name": "Mount & Blade: Warband",
+        "steam_appid": 48700,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/48700/header.jpg?t=1589227310",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1999,
+            "final": 1999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$19.99"
+        },
+        "genres": [
+            "Action",
+            "RPG",
+            "Single-player",
+            "Multi-player",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "Steam Workshop"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 43657,
+            "total_negative": 1006,
+            "total_reviews": 44663
         }
     },
     "105600": {
@@ -50,7 +209,7 @@
         "name": "Terraria",
         "steam_appid": 105600,
         "is_free": false,
-        "header_image": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/105600/header.jpg?t=1590092560",
         "price_overview": {
             "currency": "USD",
             "initial": 999,
@@ -59,13 +218,92 @@
             "initial_formatted": "",
             "final_formatted": "$9.99"
         },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "RPG",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Steam Cloud",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
         "review_info": {
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 262998,
-            "total_negative": 5271,
-            "total_reviews": 268269
+            "total_positive": 263204,
+            "total_negative": 5273,
+            "total_reviews": 268477
+        }
+    },
+    "230410": {
+        "type": "game",
+        "name": "Warframe",
+        "steam_appid": 230410,
+        "is_free": true,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/230410/header.jpg?t=1601568920",
+        "genres": [
+            "Action",
+            "Free to Play",
+            "Single-player",
+            "Multi-player",
+            "Co-op",
+            "Steam Trading Cards",
+            "In-App Purchases",
+            "Partial Controller Support",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 1,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 1008,
+            "total_negative": 136,
+            "total_reviews": 1144
+        }
+    },
+    "238960": {
+        "type": "game",
+        "name": "Path of Exile",
+        "steam_appid": 238960,
+        "is_free": true,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/238960/header.jpg?t=1602018413",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Free to Play",
+            "Indie",
+            "Massively Multiplayer",
+            "RPG",
+            "Single-player",
+            "Multi-player",
+            "MMO",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "In-App Purchases",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 548,
+            "total_negative": 50,
+            "total_reviews": 598
         }
     },
     "250900": {
@@ -73,7 +311,7 @@
         "name": "The Binding of Isaac: Rebirth",
         "steam_appid": 250900,
         "is_free": false,
-        "header_image": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/250900/header.jpg?t=1573181772",
         "price_overview": {
             "currency": "USD",
             "initial": 1499,
@@ -82,21 +320,33 @@
             "initial_formatted": "",
             "final_formatted": "$14.99"
         },
+        "genres": [
+            "Action",
+            "Single-player",
+            "Multi-player",
+            "Shared/Split Screen",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Steam Cloud",
+            "Remote Play on TV",
+            "Remote Play Together"
+        ],
         "review_info": {
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 46074,
-            "total_negative": 938,
-            "total_reviews": 47012
+            "total_positive": 46088,
+            "total_negative": 937,
+            "total_reviews": 47025
         }
     },
-    "292030": {
+    "252490": {
         "type": "game",
-        "name": "The Witcher® 3: Wild Hunt",
-        "steam_appid": 292030,
+        "name": "Rust",
+        "steam_appid": 252490,
         "is_free": false,
-        "header_image": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/252490/header.jpg?t=1596773375",
         "price_overview": {
             "currency": "USD",
             "initial": 3999,
@@ -105,13 +355,142 @@
             "initial_formatted": "",
             "final_formatted": "$39.99"
         },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "Massively Multiplayer",
+            "RPG",
+            "Multi-player",
+            "MMO",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Cross-Platform Multiplayer",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "Steam Workshop",
+            "In-App Purchases",
+            "Valve Anti-Cheat enabled",
+            "Stats",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 166215,
+            "total_negative": 27563,
+            "total_reviews": 193778
+        }
+    },
+    "252950": {
+        "type": "game",
+        "name": "Rocket League®",
+        "steam_appid": 252950,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/252950/header.jpg?t=1600873212",
+        "genres": [
+            "Action",
+            "Indie",
+            "Racing",
+            "Sports",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Shared/Split Screen PvP",
+            "Co-op",
+            "Online Co-op",
+            "Shared/Split Screen Co-op",
+            "Shared/Split Screen",
+            "Cross-Platform Multiplayer",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Steam Workshop",
+            "Steam Cloud",
+            "Stats",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV",
+            "Remote Play Together"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 154721,
+            "total_negative": 17904,
+            "total_reviews": 172625
+        }
+    },
+    "271590": {
+        "type": "game",
+        "name": "Grand Theft Auto V",
+        "steam_appid": 271590,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/271590/header.jpg?t=1592866696",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 2999,
+            "final": 1499,
+            "discount_percent": 50,
+            "initial_formatted": "$29.99",
+            "final_formatted": "$14.99"
+        },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Single-player",
+            "Multi-player",
+            "Steam Achievements",
+            "Full controller support",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 6,
+            "review_score_desc": "Mostly Positive",
+            "total_positive": 189982,
+            "total_negative": 68016,
+            "total_reviews": 257998
+        }
+    },
+    "292030": {
+        "type": "game",
+        "name": "The Witcher® 3: Wild Hunt",
+        "steam_appid": 292030,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/292030/header.jpg?t=1602588729",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 3999,
+            "final": 3999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$39.99"
+        },
+        "genres": [
+            "RPG",
+            "Single-player",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Steam Cloud",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
         "review_info": {
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 125512,
-            "total_negative": 2992,
-            "total_reviews": 128504
+            "total_positive": 125535,
+            "total_negative": 2993,
+            "total_reviews": 128528
         }
     },
     "294100": {
@@ -119,7 +498,7 @@
         "name": "RimWorld",
         "steam_appid": 294100,
         "is_free": false,
-        "header_image": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/294100/header.jpg?t=1594308831",
         "price_overview": {
             "currency": "USD",
             "initial": 3499,
@@ -128,13 +507,100 @@
             "initial_formatted": "",
             "final_formatted": "$34.99"
         },
+        "genres": [
+            "Indie",
+            "Simulation",
+            "Strategy",
+            "Single-player",
+            "Steam Workshop",
+            "Steam Cloud",
+            "Remote Play on Tablet"
+        ],
         "review_info": {
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 43162,
+            "total_positive": 43176,
             "total_negative": 757,
-            "total_reviews": 43919
+            "total_reviews": 43933
+        }
+    },
+    "346110": {
+        "type": "game",
+        "name": "ARK: Survival Evolved",
+        "steam_appid": 346110,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/346110/header.jpg?t=1595349770",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 4999,
+            "final": 4999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$49.99"
+        },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "Massively Multiplayer",
+            "RPG",
+            "Single-player",
+            "Multi-player",
+            "MMO",
+            "Co-op",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Workshop",
+            "Steam Cloud",
+            "Valve Anti-Cheat enabled",
+            "Includes level editor",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 6,
+            "review_score_desc": "Mostly Positive",
+            "total_positive": 101464,
+            "total_negative": 34499,
+            "total_reviews": 135963
+        }
+    },
+    "359550": {
+        "type": "game",
+        "name": "Tom Clancy's Rainbow Six® Siege",
+        "steam_appid": 359550,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/359550/header.jpg?t=1602605478",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1999,
+            "final": 1999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$19.99"
+        },
+        "genres": [
+            "Action",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Steam Trading Cards",
+            "In-App Purchases",
+            "Partial Controller Support",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 255496,
+            "total_negative": 28280,
+            "total_reviews": 283776
         }
     },
     "413150": {
@@ -142,7 +608,7 @@
         "name": "Stardew Valley",
         "steam_appid": 413150,
         "is_free": false,
-        "header_image": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/413150/header.jpg?t=1595525376",
         "price_overview": {
             "currency": "USD",
             "initial": 1499,
@@ -151,13 +617,29 @@
             "initial_formatted": "",
             "final_formatted": "$14.99"
         },
+        "genres": [
+            "Indie",
+            "RPG",
+            "Simulation",
+            "Single-player",
+            "Multi-player",
+            "Co-op",
+            "Online Co-op",
+            "LAN Co-op",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Steam Cloud",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
         "review_info": {
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 123429,
+            "total_positive": 123465,
             "total_negative": 1509,
-            "total_reviews": 124938
+            "total_reviews": 124974
         }
     },
     "427520": {
@@ -165,7 +647,7 @@
         "name": "Factorio",
         "steam_appid": 427520,
         "is_free": false,
-        "header_image": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/427520/header.jpg?t=1597395512",
         "price_overview": {
             "currency": "USD",
             "initial": 3000,
@@ -174,13 +656,62 @@
             "initial_formatted": "",
             "final_formatted": "$30.00"
         },
+        "genres": [
+            "Casual",
+            "Indie",
+            "Simulation",
+            "Strategy",
+            "Single-player",
+            "Multi-player",
+            "Co-op",
+            "Online Co-op",
+            "LAN Co-op",
+            "Cross-Platform Multiplayer",
+            "Steam Achievements",
+            "Steam Cloud",
+            "Includes level editor",
+            "Remote Play on Tablet"
+        ],
         "review_info": {
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 45930,
+            "total_positive": 45957,
             "total_negative": 515,
-            "total_reviews": 46445
+            "total_reviews": 46472
+        }
+    },
+    "460950": {
+        "type": "game",
+        "name": "Katana ZERO",
+        "steam_appid": 460950,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/460950/header.jpg?t=1593451079",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1499,
+            "final": 1499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$14.99"
+        },
+        "genres": [
+            "Action",
+            "Indie",
+            "Single-player",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "Partial Controller Support",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 10063,
+            "total_negative": 197,
+            "total_reviews": 10260
         }
     },
     "546560": {
@@ -188,7 +719,7 @@
         "name": "Half-Life: Alyx",
         "steam_appid": 546560,
         "is_free": false,
-        "header_image": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/546560/header.jpg?t=1594314571",
         "price_overview": {
             "currency": "USD",
             "initial": 5999,
@@ -197,21 +728,65 @@
             "initial_formatted": "",
             "final_formatted": "$59.99"
         },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Single-player",
+            "Steam Achievements",
+            "Captions available",
+            "VR Support",
+            "Steam Workshop",
+            "Includes level editor"
+        ],
         "review_info": {
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 24194,
+            "total_positive": 24204,
             "total_negative": 356,
-            "total_reviews": 24550
+            "total_reviews": 24560
         }
     },
-    "1145360": {
+    "578080": {
         "type": "game",
-        "name": "Hades",
-        "steam_appid": 1145360,
+        "name": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+        "steam_appid": 578080,
         "is_free": false,
-        "header_image": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/578080/header.jpg?t=1596674062",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 2999,
+            "final": 2999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$29.99"
+        },
+        "genres": [
+            "Action",
+            "Adventure",
+            "Massively Multiplayer",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Stats",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 5,
+            "review_score_desc": "Mixed",
+            "total_positive": 143798,
+            "total_negative": 93002,
+            "total_reviews": 236800
+        }
+    },
+    "646570": {
+        "type": "game",
+        "name": "Slay the Spire",
+        "steam_appid": 646570,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/646570/header.jpg?t=1592339399",
         "price_overview": {
             "currency": "USD",
             "initial": 2499,
@@ -220,13 +795,166 @@
             "initial_formatted": "",
             "final_formatted": "$24.99"
         },
+        "genres": [
+            "Indie",
+            "Strategy",
+            "Single-player",
+            "Steam Achievements",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Steam Workshop",
+            "Steam Cloud",
+            "Stats",
+            "Steam Leaderboards",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
         "review_info": {
             "num_reviews": 20,
             "review_score": 9,
             "review_score_desc": "Overwhelmingly Positive",
-            "total_positive": 22299,
-            "total_negative": 236,
-            "total_reviews": 22535
+            "total_positive": 31092,
+            "total_negative": 617,
+            "total_reviews": 31709
+        }
+    },
+    "739630": {
+        "type": "game",
+        "name": "Phasmophobia",
+        "steam_appid": 739630,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/739630/header.jpg?t=1602270061",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1399,
+            "final": 1399,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$13.99"
+        },
+        "genres": [
+            "Action",
+            "Indie",
+            "Early Access",
+            "Single-player",
+            "Multi-player",
+            "Co-op",
+            "Online Co-op",
+            "Full controller support",
+            "Steam Cloud"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 21036,
+            "total_negative": 525,
+            "total_reviews": 21561
+        }
+    },
+    "945360": {
+        "type": "game",
+        "name": "Among Us",
+        "steam_appid": 945360,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg?t=1598556351",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 499,
+            "final": 499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$4.99"
+        },
+        "genres": [
+            "Casual",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "LAN PvP",
+            "Co-op",
+            "Online Co-op",
+            "LAN Co-op",
+            "Cross-Platform Multiplayer",
+            "Remote Play on Phone",
+            "Remote Play on Tablet"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 130386,
+            "total_negative": 4734,
+            "total_reviews": 135120
+        }
+    },
+    "1085660": {
+        "type": "game",
+        "name": "Destiny 2",
+        "steam_appid": 1085660,
+        "is_free": true,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1085660/header.jpg?t=1598982557",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Free to Play",
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Steam Achievements",
+            "Full controller support",
+            "In-App Purchases",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 8,
+            "review_score_desc": "Very Positive",
+            "total_positive": 39690,
+            "total_negative": 3909,
+            "total_reviews": 43599
+        }
+    },
+    "1145360": {
+        "type": "game",
+        "name": "Hades",
+        "steam_appid": 1145360,
+        "is_free": false,
+        "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/1145360/header.jpg?t=1601510167",
+        "price_overview": {
+            "currency": "USD",
+            "initial": 2499,
+            "final": 2499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$24.99"
+        },
+        "genres": [
+            "Action",
+            "Indie",
+            "RPG",
+            "Single-player",
+            "Full controller support",
+            "Steam Trading Cards",
+            "Captions available",
+            "Steam Cloud",
+            "Remote Play on Phone",
+            "Remote Play on Tablet",
+            "Remote Play on TV"
+        ],
+        "review_info": {
+            "num_reviews": 20,
+            "review_score": 9,
+            "review_score_desc": "Overwhelmingly Positive",
+            "total_positive": 22450,
+            "total_negative": 237,
+            "total_reviews": 22687
         }
     }
 }
