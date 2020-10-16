@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const json = require("../gameData.json");
     const allGamesData = Object.values(json);
 
-    //filter datasets
+    //filter games by genre
     let getGamesByGenre = genre => {
         return Object.values(json).filter(gameData => {
             if(genre === "All"){
@@ -18,19 +18,30 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     }
 
-    let getGamesByPricepoint = pricepoint => {
-        return Object.values(json).filter(gameData => {
-            return gameData.price_overview.final <= pricepoint;
+    //filter game by pricepoint
+    let getGamesByPricepoint = (pricepoint, gamesDatas) => {
+        return gamesDatas.filter(gameData => {
+            if(pricepoint === "All"){
+                return true
+            }else if(pricepoint === "free"){
+                return !gameData.price_overview
+            }else{
+                    return !gameData.price_overview || (gameData.price_overview.final / 100) <= parseInt(pricepoint)
+            }
+            
         })
     }
 
     //functions for getting different types of data
+
+    //get the Names of the games
     let getGameNames = (gameDataset) => {
         return gameDataset.map(gameData => {
             return gameData.name
         })
     }
 
+    //get the prices of the games
     let getGamePrices = (gameDataset) => {
         return gameDataset.map(gameData => {
             if (!gameData.price_overview) {
@@ -41,12 +52,14 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     }
 
+    //get the ratings for the games
     let getGameRatings = (gameDataset) => {
         return gameDataset.map(gameData => {
             return (gameData.review_info.total_positive / gameData.review_info.total_reviews * 10).toFixed(2);
         })
     }
 
+    //get the Rating per dollar for a game
     let getGameRatingPerDollar = (gameDataset) => {
         return gameDataset.map(gameData => {
             let yAxes;
@@ -62,6 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     }
 
+    //get the pics for games
     let getGamePics = (gameDataset) => {
         return gameDataset.map(gameData => {
             let img = new Image();
@@ -249,6 +263,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const selectChart = document.getElementById("data-selector");
     const selectDataStyleLabel = document.getElementById("select-data-style-label");
     const selectDataStyle = document.getElementById("select-data-style");
+    const selectPricePoint = document.getElementById("price-filter");
 
     //Functions For Event Handlers
 
@@ -258,20 +273,27 @@ document.addEventListener("DOMContentLoaded", () => {
             scatterChart.data.datasets[0].pointStyle = "circle";
             scatterChart.data.datasets[0].pointHitRadius = 5;
         } else if (style === "images") {
-            scatterChart.data.datasets[0].pointStyle = getGamePics(getGamesByGenre(selectGenre.options[selectGenre.selectedIndex].value));
+            let genreGamesData;
+            if (selectGenre.options[selectGenre.selectedIndex].value === "All") {
+                genreGamesData = allGamesData;
+            } else {
+                genreGamesData = getGamesByGenre(selectGenre.options[selectGenre.selectedIndex].value);
+            }
+            scatterChart.data.datasets[0].pointStyle = getGamePics(getGamesByPricepoint(selectPricePoint.options[selectPricePoint.selectedIndex].value, genreGamesData ));
             scatterChart.data.datasets[0].pointHitRadius = 30;
         }
         scatterChart.update();
     }
 
-    let filterChartByGenre = genre => {
-        let gamesData;
-        if(genre === "All"){
-            console.log(genre);
-            gamesData = allGamesData;
-        } else{
-            gamesData = getGamesByGenre(genre);
+    //Filter
+    let filterChart = pricepoint => {
+        let genreGamesData;
+        if (selectGenre.options[selectGenre.selectedIndex].value === "All"){
+            genreGamesData = allGamesData;
+        }else{
+            genreGamesData = getGamesByGenre(selectGenre.options[selectGenre.selectedIndex].value);
         }
+        let gamesData = getGamesByPricepoint(pricepoint, genreGamesData);
         priceChart.data.labels = getGameNames(gamesData);
         priceChart.data.datasets[0].data = getGamePrices(gamesData);
         priceChart.update();
@@ -279,12 +301,12 @@ document.addEventListener("DOMContentLoaded", () => {
         ratingChart.data.datasets[0].data = getGameRatings(gamesData);
         ratingChart.update();
         scatterChart.data.labels = getGameNames(gamesData);
-        console.log(selectDataStyle);
-        if (selectDataStyleLabel.style.display !== "none"){
+        if (selectDataStyleLabel.style.display !== "none") {
             changeDataStyle(selectDataStyle.options[selectDataStyle.selectedIndex].value);
         }
         scatterChart.data.datasets[0].data = getGameRatingPerDollar(gamesData);
         scatterChart.update();
+        return gamesData;
     }
 
     
@@ -316,7 +338,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //Filter Button Event Listeners
     selectGenre.addEventListener("change", (event) => {
-        filterChartByGenre(event.target.value);
+        filterChart(selectPricePoint.options[selectPricePoint.selectedIndex].value);
     })
 
     selectChart.addEventListener("change", (event) => {
@@ -324,8 +346,11 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     selectDataStyle.addEventListener("change", (event) => {
-        console.log(event.target.value);
         changeDataStyle(event.target.value);
+    })
+
+    selectPricePoint.addEventListener("change", (event) => {
+        filterChart(event.target.value);
     })
 
 
