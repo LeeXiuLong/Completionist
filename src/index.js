@@ -265,6 +265,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const selectDataStyle = document.getElementById("select-data-style");
     const selectPricePoint = document.getElementById("price-filter");
 
+    //About and Modal
+    const aboutTheApp = document.getElementsByClassName("about-modal")[0];
+    const modal = document.getElementsByClassName("modal-background")[0];
+    const closeButton = document.getElementsByClassName("close-button")[0];
+
     //Functions For Event Handlers
 
     //Change the Data Style of the Rating/$ Chart
@@ -352,6 +357,14 @@ document.addEventListener("DOMContentLoaded", () => {
     selectPricePoint.addEventListener("change", (event) => {
         filterChart(event.target.value);
     })
+
+    //About Modal
+    aboutTheApp.onclick = () => {
+        modal.style.display = "block";
+    }
+    closeButton.onclick = () => {
+        modal.style.display = "none";
+    }
 
 
 })

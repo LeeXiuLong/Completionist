@@ -7,16 +7,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dist/main.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/css/bootstrap-select.min.css">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <title>Wait For Sale</title>
 </head>
 
 <body>
     <script src="./dist/main.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
+    <div class="modal-background">
+        <div class="modal" >
+            <button class="close-button">x</button>
+            <h1 class="modal-title">About the App</h1>
+            <p class= "about-description">
+               Wait for sale is an app designed to help you decide what games are the most worth it for the price. 
+               We have curated data from select popular games that we believe our users would be interested in buying. 
+               For the most optimally high value games please see the price filter labeled "$/Rating" and look towards the top right.
+               The farther to the right a game is, the higher the rating. The farther up a game is, the cheaper the game. 
+               You can also select from a variety of filters including the genre of game, as well as the price point that you would like to select from if you're on a budget.
+               Play around with the app and we hope that you save some money and bring more value to your time! 
+            </p>
+        </div>
+    </div>
     <div class="main-header">
-        <h1 class="main-header-h1">
-            Wait For Sale
-        </h1>
+        <div class="headers">
+            <h1 class="main-header-h1">
+                Wait For Sale
+            </h1>
+            <h1 class="about-modal">About the App</h1>
+        </div>
     </div>
     <div class="main-body">
         <div class="filters-and-charts">
@@ -81,12 +99,13 @@
         </div>
     </div>
     <div class="footer">
-        <ul>
+        <h1 class="footer-header">Personal Links</h1>
+        <ul class="footer-links">
             <li>
-                <a href="">Github</a>
+                <a href="https://github.com/LeeXiuLong" class="github">Github</a>
             </li>
             <li>
-                <a href="">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/jourdan-ooi/" class="linked-in">LinkedIn</a>
             </li>
         </ul>
     </div>
