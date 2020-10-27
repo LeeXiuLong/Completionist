@@ -23,3 +23,50 @@ A filter by individual price or overall game rating is also possible in the form
     <li>Filter Graphs based on different genres of game as well as game price.</li>
     <li>Be able to switch between dots and game images for the Rating/$ graph on all filters.</li>
 </ol>
+
+<h1>Wireframe</h1>
+<img src="./Wireframe.png">
+
+<h1>Architecture and Technology</h1>
+<ul>
+    <li>Vanilla Javascript</li>
+    <li>CSS</li>
+    <li>HTML</li>
+    <li>Webpack</li>
+    <li>Chart.js</li>
+</ul>
+
+<h1>Timeline</h1>
+<h3>Day 1<h3>
+<ul>
+    <li>Learn github pages.</li>
+    <li>Investigate Steam API</li>
+    <li>Receive All JSON Data needed for project</li>
+</ul>
+<h3>Day 2<h3>
+<ul>
+    <li>Read Chart.js documentation</li>
+    <li>Render a chart on the DOM</li>
+    <li>Create first bar chart for price.</li>
+</ul>
+<h3>Day 3<h3>
+<ul>
+    <li>Work on filters for single graph.</li>
+    <li>Implement other 2 graphs</li>
+</ul>
+<h3>Day 4<h3>
+<ul>
+    <li>Smooth transitions after different filters on graph.</li>
+    <li>Make certain graphs dissappear depending on filter.</li>
+    <li>Write about the game modal.</li>
+    <li>Favicon and Page title</li>
+    <li>Write production README</li>
+</ul>
+
+<h1>Bonus Features</h1>
+<ul>
+    <li>Render images for game points rather than just points.</li>
+    <li>Have points be links to steam pages</li>
+</ul>
+
+
